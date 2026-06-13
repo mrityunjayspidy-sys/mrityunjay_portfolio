@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Portfolio Website</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Ambient Glows -->
+    <div class="bg-glow-orb bg-orb-1"></div>
+    <div class="bg-glow-orb bg-orb-2"></div>
+    <div class="bg-glow-orb bg-orb-3"></div>
+
+    <!-- Header Navigation -->
+    <header>
+        <a href="#welcome" class="logo smooth-scroll">
+        </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#welcome">Welcome</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievement">Achievement</a></li>
+                <li><a href="#thankyou">Thank You</a></li>
+            </ul>
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Sections -->
+    <main>
+
+        <!-- 1. WELCOME PAGE -->
+        <section id="welcome" class="page-section">
+            <div class="welcome-content section-container">
+                <span class="welcome-tagline reveal">TO KNOW ABOUT ME</span>
+                <h1 class="welcome-title reveal reveal-delay-1">
+                    Welcome to My <span class="gradient-text">Creative Space</span>
+                </h1>
+                <p class="welcome-desc reveal reveal-delay-2">
+
+                </p>
+                <div class="welcome-actions reveal reveal-delay-3">
+                    <a href="#home" class="btn-primary smooth-scroll">
+                        Explore Portfolio
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                    <a href="#thankyou" class="btn-outline smooth-scroll">Get In Touch</a>
+                </div>
+            </div>
+            <a href="#home" class="scroll-indicator smooth-scroll">
+                <span>Scroll Down</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </a>
+        </section>
+
+        <!-- 2. HOME PAGE -->
+        <section id="home" class="page-section">
+            <div class="section-container">
+                <div class="home-grid">
+                    <div class="home-text">
+                        <h3 class="reveal"> Hello, I am </h3>
+                        <h1 class="reveal reveal-delay-1"><span class="gradient-text"> MRITYUNJAY R </span></h1>
+                        <p class="reveal reveal-delay-2">
+                            A passionate and driven newcomer seeking the right opportunity to apply my foundational
+                            skills, embrace new challenges, and rapidly grow as a professional.
+                        </p>
+                        <div class="home-stats reveal reveal-delay-3">
+                            <div class="stat-item">
+                                <span class="stat-num">3</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-num">A+</span>
+                                <span class="stat-label">Grades</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-num">1</span>
+                                <span class="stat-label">Years Exp</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home-image-area reveal reveal-delay-2">
+                        <div class="home-image-container">
+                            <div class="home-image-glow"></div>
+                            <div class="home-image-frame">
+                                <img src="profile.png" alt="Profile Photo" class="home-profile-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. ABOUT PAGE -->
+        <section id="about" class="page-section">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <h2>About Me</h2>
+                    <p> Get Ready To Know About A Guy Who Love To Explore New Things </p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-info glass-card reveal">
+                        <h3>My Story</h3>
+                        <p> I'm a Computer Engineering student at Vel Tech High Tech, specializing in AI and Machine
+                            Learning 🤖✨. I love a good challenge and regularly team up to compete in national
+                            hackathons and tech symposiums 🏆💻. I also consider myself a 'jack-of-all-trades' 🛠️—I am
+                            always teaching myself new tech outside of my college classes, which helps me connect the
+                            dots and solve problems creatively 💡🚀 </p>
+                        <p> After graduation, I want to either start my own tech startup or launch a specialized
+                            freelance agency 🚀💼. Either way, I want the freedom to build my own solutions and
+                            continuously grow my skills 📈. In my downtime, I enjoy reading fiction and psychology books
+                            to keep my mind sharp and positive 📚🧠. I genuinely love building things 🏗️, and I am
+                            excited to bring that energy to my next big opportunity 🔥✨ </p>
+                    </div>
+                    <div class="about-features">
+                        <div class="about-card glass-card reveal reveal-delay-1">
+                            <div class="about-card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                                </svg>
+                            </div>
+                            <h4>My Hobbies</h4>
+                            <p> In my free time, I enjoy reading books 📚, listening to music 🎵, and maintaining a
+                                daily workout routine 💪. I am also always looking to expand my perspective by tuning
+                                into TED Talks 🎤, and I like to relax by watching movies 🎬 or classic sitcoms like
+                                *The Office* ☕📺.. </p>
+                        </div>
+                        <div class="about-card glass-card reveal reveal-delay-2">
+                            <div class="about-card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                                </svg>
+                            </div>
+                            <h4>Favorite Things to Do</h4>
+                            <p> In my downtime, you can usually find me grabbing a cup of coffee, 🎮 playing games and
+                                hanging out with friends 🧑‍🤝‍🧑, or unwinding 🍿 with a good rom-com 💕 and my
+                                favorite shows like 📺 The Office and Friends
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. EDUCATION PAGE -->
+        <section id="education" class="page-section">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <h2>Education</h2>
+                    <p> Academic background, certifications, and educational achievements </p>
+                </div>
+                <div class="education-timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date"> 2025 - Present </span>
+                            <h3 class="timeline-title">Bacholor of Computer Science and Engineering </h3>
+                            <h4 class="timeline-institution"> Vel tech High Tech Dr Rangarajan Dr Sakunthala Engineering
+                                college , Avadi </h4>
+                            <p class="timeline-desc"> Currently pursuing my undergraduate degree in computer science and
+                                engineering with specialization in Artificial Intelligence and Machine Learning.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item reveal reveal-delay-1">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date"> 2022 - 2025 </span>
+                            <h3 class="timeline-title"> Higher Secondary Education </h3>
+                            <h4 class="timeline-institution"> Vivkananda Matriculation Higher Secondary School , Chennai
+                            </h4>
+                            <p class="timeline-desc"> Studied my higher secondary education in Vivkananda Matriculation
+                                Higher Secondary School and passed out with 90% </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SKILLS PAGE -->
+        <section id="skills" class="page-section">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <h2>Technical Skills</h2>
+                    <p>My area of expertise, programming languages, libraries, and tools</p>
+                </div>
+                <div class="skills-wrapper">
+                    <!-- Category 1: Programming Languages -->
+                    <div class="skills-card glass-card reveal">
+                        <div class="skills-card-header">
+                            <span class="category-icon">💻</span>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skills-items-container">
+                            <div class="skill-detail-item">
+                                <div class="skill-detail-info">
+                                    <span class="skill-detail-name">Python</span>
+                                </div>
+                                <p class="skill-detail-desc">Proficient in object-oriented programming (OOP), data
+                                    structures, and writing clean, scalable script for data analysis.</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <div class="skill-detail-info">
+                                    <span class="skill-detail-name">C / C++</span>
+                                </div>
+                                <p class="skill-detail-desc">Strong understanding of low-level memory management,
+                                    pointers, and high-performance algorithm implementation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 2: Data Science & Analytics -->
+                    <div class="skills-card glass-card reveal reveal-delay-1">
+                        <div class="skills-card-header">
+                            <span class="category-icon">📊</span>
+                            <h3>Data Science & Analytics</h3>
+                        </div>
+                        <div class="skills-items-container">
+                            <div class="skill-detail-item">
+                                <div class="skill-detail-info">
+                                    <span class="skill-detail-name">Exploratory Data Analysis (EDA)</span>
+                                </div>
+                                <p class="skill-detail-desc">Skilled in uncovering patterns, detecting outliers, and
+                                    deriving insights from raw datasets.</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <div class="skill-detail-info">
+                                    <span class="skill-detail-name">Data Preprocessing & Cleaning</span>
+                                </div>
+                                <p class="skill-detail-desc">Experienced in handling missing values, data normalization,
+                                    and feature scaling.</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <div class="skill-detail-info">
+                                    <span class="skill-detail-name">Feature Engineering</span>
+                                </div>
+                                <p class="skill-detail-desc">Transforming raw data into meaningful features to improve
+                                    machine learning model accuracy.</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <div class="skill-detail-info">
+                                    <span class="skill-detail-name">Statistical Analysis</span>
+                                </div>
+                                <p class="skill-detail-desc">Applying descriptive statistics, probability distributions,
+                                    and hypothesis testing to data.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Machine Learning & Artificial Intelligence -->
+                    <div class="skills-card glass-card reveal reveal-delay-2">
+                        <div class="skills-card-header">
+                            <span class="category-icon">🤖</span>
+                            <h3>Machine Learning & AI</h3>
+                        </div>
+                        <div class="skills-items-container">
+                            <div class="skill-detail-item">
+                                <div class="skill-detail-info">
+                                    <span class="skill-detail-name">Supervised Learning</span>
+                                </div>
+                                <p class="skill-detail-desc">Building predictive models using Linear/Logistic
+                                    Regression, Decision Trees, and Random Forests.</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <div class="skill-detail-info">
+                                    <span class="skill-detail-name">Unsupervised Learning</span>
+                                </div>
+                                <p class="skill-detail-desc">Implementing clustering algorithms (K-Means, Hierarchical)
+                                    and dimensionality reduction (PCA).</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <div class="skill-detail-info">
+                                    <span class="skill-detail-name">Model Evaluation</span>
+                                </div>
+                                <p class="skill-detail-desc">Optimizing models using metrics like Accuracy, Precision,
+                                    Recall, F1-Score, and ROC-AUC curves.</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <div class="skill-detail-info">
+                                    <span class="skill-detail-name">Deep Learning (Core Concepts)</span>
+                                </div>
+                                <p class="skill-detail-desc">Understanding the fundamentals of Neural Networks, weights,
+                                    biases, and activation functions.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 4: Libraries & Frameworks -->
+                    <div class="skills-card glass-card reveal reveal-delay-3">
+                        <div class="skills-card-header">
+                            <span class="category-icon">📚</span>
+                            <h3>Libraries & Frameworks</h3>
+                        </div>
+                        <div class="skills-items-container">
+                            <div class="skill-detail-item">
+                                <div class="skill-detail-info">
+                                    <span class="skill-detail-name">Data Manipulation</span>
+                                </div>
+                                <p class="skill-detail-desc">Pandas, NumPy</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <div class="skill-detail-info">
+                                    <span class="skill-detail-name">Data Visualization</span>
+                                </div>
+                                <p class="skill-detail-desc">Matplotlib, Seaborn</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <div class="skill-detail-info">
+                                    <span class="skill-detail-name">Machine Learning</span>
+                                </div>
+                                <p class="skill-detail-desc">Scikit-Learn</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 5: Tools & Developer Platforms -->
+                    <div class="skills-card glass-card reveal reveal-delay-4">
+                        <div class="skills-card-header">
+                            <span class="category-icon">🧰</span>
+                            <h3>Tools & Developer Platforms</h3>
+                        </div>
+                        <div class="skills-items-container">
+                            <div class="skill-detail-item">
+                                <div class="skill-detail-info">
+                                    <span class="skill-detail-name">Version Control</span>
+                                </div>
+                                <p class="skill-detail-desc">Git & GitHub (Repository management and version tracking)
+                                </p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <div class="skill-detail-info">
+                                    <span class="skill-detail-name">Development Environments</span>
+                                </div>
+                                <p class="skill-detail-desc">Jupyter Notebooks, VS Code, Google Colab</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. ACHIEVEMENT PAGE -->
+        <section id="achievement" class="page-section">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <h2>Achievements</h2>
+                    <p>A collection of awards, trophies &amp; recognitions earned through hard work and dedication</p>
+                </div>
+                <div class="award-gallery">
+
+                    <!-- Award Card 1 -->
+                    <div class="award-card glass-card reveal">
+                        <div class="award-img-wrap">
+                            <img src="award1.jpg" alt="Academic Meritor Award 2022-23" class="award-img">
+                        </div>
+                        <div class="award-body">
+                            <span class="award-tag">Academic Excellence</span>
+                            <h3 class="award-title">Academic Meritor 2022 – 2023</h3>
+                            <p class="award-desc"> Awarded the Academic Meritor trophy by Vivekananda Matric. Hr. Sec.
+                                School, Redhills for outstanding academic performance in the year 2022–2023. </p>
+                        </div>
+                    </div>
+
+                    <!-- Award Card 2 -->
+                    <div class="award-card glass-card reveal reveal-delay-1">
+                        <div class="award-img-wrap">
+                            <img src="award2.jpg" alt="Academic Meritor Award second" class="award-img">
+                        </div>
+                        <div class="award-body">
+                            <span class="award-tag">Competition</span>
+                            <h3 class="award-title">Gandhi Jayanthi – 2nd Place (2020–21)</h3>
+                            <p class="award-desc"> Secured Second Place in the 151st Gandhi Jayanthi Celebration Online
+                                Competition conducted by Vivekananda Matric. Hr. Sec. School on 02.10.2020 </p>
+                        </div>
+                    </div>
+
+                    <!-- Award Card 3 -->
+                    <div class="award-card glass-card reveal reveal-delay-2">
+                        <div class="award-img-wrap">
+                            <img src="award3.jpg" alt="Gandhi Jayanthi Online Competition Second Place"
+                                class="award-img">
+                        </div>
+                        <div class="award-body">
+                            <span class="award-tag">Academic Excellence</span>
+                            <h3 class="award-title">Academic Meritor – Recognition (2023-2024) </h3>
+                            <p class="award-desc"> Recognised again for consistent academic excellence at Vivekananda
+                                Matric. Hr. Sec. School, Redhills, Ch-52. </p>
+                        </div>
+                    </div>
+
+                    <!-- Award Card 4 -->
+                    <div class="award-card glass-card reveal reveal-delay-3">
+                        <div class="award-img-wrap">
+                            <img src="award4.jpg" alt="Academic Meritor 2023-24" class="award-img">
+                        </div>
+                        <div class="award-body">
+                            <span class="award-tag">Academic Excellence</span>
+                            <h3 class="award-title">Academic Meritor 2024 – 2025</h3>
+                            <p class="award-desc"> Honoured with the Academic Meritor award for the year 2024–2025 and
+                                scored 100% in Computer Science </p>
+                        </div>
+                    </div>
+
+                    <!-- Award Card 5 -->
+                    <div class="award-card glass-card reveal reveal-delay-4">
+                        <div class="award-img-wrap">
+                            <img src="award5.jpeg" alt="Sports Champion 2021" class="award-img">
+                        </div>
+                        <div class="award-body">
+                            <span class="award-tag">Sports </span>
+                            <h3 class="award-title">Sports Champion 2021</h3>
+                            <p class="award-desc"> Awarded the Sports Champion award by Vivekananda Matric. Hr. Sec.
+                                School,
+                                Redhills for outstanding performance in sports activities in the year 2021 </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. THANK YOU PAGE -->
+        <section id="thankyou" class="page-section">
+            <div class="section-container">
+                <div class="thankyou-wrapper">
+                    <div class="thankyou-card glass-card reveal">
+                        <div class="thankyou-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h2>Thank You!</h2>
+                        <p>
+                            Thank you for taking the time to review my portfolio. Feel free to reach out for
+                            collaborations, project opportunities, or simply to say hello! I will get back to you as
+                            soon as possible.
+                        </p>
+
+                        <!-- Contact Link / CTA -->
+                        <div style="margin-bottom: 35px;">
+                            <a href="mailto:mrityunjay.spidy@gmail.com" class="btn-primary">
+                                Say Hello
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <!-- Social Handles -->
+                        <div class="social-links">
+                            <a href="https://github.com/mrityunjayspidy-sys" class="social-btn" aria-label="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mrityunjay-ranjithkumar-71a02b21a/" class="social-btn"
+                                aria-label="LinkedIn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                    </path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-btn" aria-label="Twitter">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="section-container">
+            <p>&copy; 2026 - Mrityunjay . All Rights Reserved. Crafted with love &amp; code.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+
+</html>
